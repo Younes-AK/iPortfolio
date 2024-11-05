@@ -16,3 +16,6 @@ def block_project(request):
 
 def front(request):
     return render(request, 'projects/front.html', {"proj" : Projects.objects.all()})
+
+# def workstation(request):
+#     return render(request, 'workstation/works.html', {"work": Projects.objects.all()})
